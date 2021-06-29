@@ -1,0 +1,7 @@
+{
+    "MEDIAN_AGE": "\nL'age médian à un effet positif sur le nombre de crimes. ( le coefficient associé est positif )\n",
+    "T_STAT": "\nD'après le model.summary, t est egale à 1.820\nElle est calculé en faisant coef/std_err\n",
+    "P_VALUE": "\nLa p_value obtenue pour l'age médian est de 0.128 . Donc l'age médian n'est pas statistiquement\nsi l'intervale de confiance est de 95%, ou 90%.\n",
+    "INCREASE": "\nChaque augmentation de 1 pourcent du nombre de couple marrié diminue le nombre \nd'incident de 2115, en gardant les autres paramètres constant.\n",
+    "LIMITATIONS": "\nLe p_score de certaines features nous indique qu'elles ne sont pas statistiquement significative.\nIl faut vérifier que le modèle se généralise bien. \nNous n'avons pas scaller nos features avant de faire le modèle.\n( ce qui peut poser des problèmes puisque l'age moyen n'est pas un pourcentage, contrairement aux autres features)\n\n"
+}
